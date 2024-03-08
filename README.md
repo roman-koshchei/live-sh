@@ -6,6 +6,10 @@ Live reloading with Bash for any language and any framework
 
 Copy [live.sh](./live.sh) into your project directory
 
+```bash
+curl -o live.sh https://raw.githubusercontent.com/roman-koshchei/live-sh/main/live.sh
+```
+
 Change instructions inside of `run` function.
 Notice **long running process should be run in background and saved to previous_pid**.
 Here is example to run Gleam project, where `gleam run` is long running process:
